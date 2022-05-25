@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Pagina Web - A*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+}
+
+header.h4, .h5{
+    padding: 1%;
+}
+
+footer{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+    color: white;
+}
+
+table, th, td{
+    border: solid 1px black;
+    padding: 5px;    
+}
+
+th{
+    text-align: start;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 25px 15px 25px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+}
+
+.dias, .preguntas, .tabla{
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.dias div{
+    display:flex;
+    flex-direction: column;
+    color: green;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+}
+
+.dias div:hover{
+    background-color: green;
+    color: white;
+}
+
+.dias p{
+    text-align: center;
+    color: green;
+    font-size: small;
+}
+
+.dias{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+}
+
+div div{
+    font-size: small;
+}
+
+.tabla p{
+    color: green;
+}
+
+dd{
+    margin-left: 25px;
+}
+
+.preguntas p, dt{
+    color: green;
+}
+
+/*Pagina Web - B*/
+
+.headerB{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(28, 161, 161);
+    justify-content: space-between;
+}
+
+.izq{
+    line-height: 20px;
+}
+
+.form1{
+   display: flex;
+   flex-direction: column;
+   padding: 10px 20px 10px 20px;
+}
+
+label, input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.formu{
+    display:flex;
+    flex-direction: column;
+    color: black;
+    border: solid 1px black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.formu p{
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(28, 161, 161);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(28, 161, 161);
+}
+
+.formu2{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.colt{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 50%;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.col2{
+    padding-left: 20px;
+}
+
+.col2 button{
+    margin-top: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
